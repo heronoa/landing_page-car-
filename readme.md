@@ -13,7 +13,7 @@
 ![alt Details menu HTML/CSS only](https://github.com/heronoa/landing_page-car-/blob/master/lateral_menu.jpg?raw=true)
 
 ## Vertical Slideshow implemented with JavaScript:
-![alt Vertical Slideshow](https://github.com/heronoa/landing_page-car-/blob/master/vetical_slideshow.jpg?raw=true)
+![alt Vertical Slideshow](https://github.com/heronoa/landing_page-car-/blob/master/vertical_slideshow.jpg?raw=true)
 
 ## Totally Responsive:
 ![alt Vertical Slideshow](https://github.com/heronoa/landing_page-car-/blob/master/responsive.jpg?raw=true)
