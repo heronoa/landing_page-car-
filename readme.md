@@ -1,5 +1,5 @@
 # Landing page for selling or presentation of a product
-features:
+### Features:
 * Lateral menu implementation with only HTML details/summary tag
 * Advanced HTML and CSS3 
 * Design and UX concepts
