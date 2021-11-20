@@ -14,7 +14,7 @@
 :root {
     --head_c: #000;
     --h1_c: #fffefe;
-    --h2_c: #dfdfdf;
+    --h2_c: #838080;
     --btn_d_bg: rgba(23, 26, 32, 0.8);
     --btn_l_bg: rgba(255, 255, 255, 0.65);
     --btn_d_c: #fff;
@@ -179,14 +179,29 @@ details[open] > summary::after {
 }
 
 /* VERTICAL SLIDE SHOW */
-
-/* MAIN */
-main {
-    background-image: url(../img/bg.jpg);
-    background-size: cover;
+.slider--item img {
+    background-size:cover;
+    background-attachment: fixed;
     background-position: center;
     height: 100vh;
+    width: 100%;
+    position:absolute;
+    z-index: -1;
 }
+.slider {
+    flex:1;
+    overflow: hidden;
+
+}
+.slider--width {
+    width: 100vw;
+    transition: ease .5s;
+}
+.slider--item {
+    width: 100vw;
+    height: 100vh;
+}
+
 main .info {
     height: 45vh;
     display: flex;
@@ -217,7 +232,7 @@ aside {
     left:0;
     bottom: 30px;
     right: 0;
-    z-index:1;
+    z-index:99;
 }
 aside .btn_area {
     display: flex;
@@ -259,6 +274,7 @@ aside .arrow {
     animation-name: arrow;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    cursor:pointer;
 }
 
 /* RESPONSIVIDADE MEDIA QUERIES */

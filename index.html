@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devsla</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" type="text/css" href="assets/css/template.css" >
 </head>
 <body>
@@ -14,12 +14,12 @@
         </div>
         <nav role="navigation" aria-labelledby="products-navigation" class="mid">
             <ul>
-                <li><a href="">Model 1</a></li>
-                <li><a href="">Model 2</a></li>
-                <li><a href="">Model 3</a></li>
-                <li><a href="">Model 4</a></li>
-                <li><a href="">Eletric Model</a></li>
-                <li><a href="">Eletric Model</a></li>
+                <li><a href="" onclick="goTo(0)">Model 1</a></li>
+                <li><a href="" onclick="goTo(1)">Model 2</a></li>
+                <li><a href="" onclick="goTo(2)">Model 3</a></li>
+                <li><a href="" onclick="goTo(3)">Model 4</a></li>
+                <li><a href="" onclick="goTo(4)">Eletric Model</a></li>
+                <li><a href="" onclick="goTo(5)">Eletric Model</a></li>
             </ul>
         </nav>
         <nav role="navigation" aria-labelledby="services-navigation" class="rig">
@@ -54,12 +54,38 @@
     </header>
     <main>
         <div class="vertical-slideshow">
+            <div class="slider">
+                <div class="slider--width">
+                    <div class="slider--item">
+                        <img src="assets/img/bg1.jpg">
+                        <div class="info">
+                            <h1>Model 1</h1>
+                            <h2>Order Online for <a href="">Touchless Delivery</a></h2>
+                        </div>
+                    </div>
 
+                    <div class="slider--item">
+                        <img src="assets/img/bg2.jpg">
+                        <div class="info">
+                            <h1>Model 2</h1>
+                            <h2>Order Online for <a href="">Touchless Delivery</a></h2>
+                        </div>
+                    </div>
+
+                    <div class="slider--item">
+                        <img src="assets/img/bg3.jpg">
+                        <div class="info">
+                            <h1>Model 3</h1>
+                            <h2>Order Online for <a href="">Touchless Delivery</a></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>            
         </div>
-        <div class="info">
+        <!-- <div class="info">
             <h1>Model 1</h1>
             <h2>Order Online for <a href="">Touchless Delivery</a></h2>
-        </div>
+        </div> -->
     </main>
     <aside>
         <div class="btn_area">
@@ -67,7 +93,7 @@
             <a href="" class="btn_l">Contact</a>
         </div>
         <div class="a_area">
-            <img class="arrow" src="assets/img/down.png" alt="Arrow down">
+            <img class="arrow" src="assets/img/down.png" alt="Arrow down" onclick="goNext()">
         </div>
     </aside>
     <script src="assets/js/script.js"></script>
